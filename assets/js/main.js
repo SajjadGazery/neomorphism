@@ -130,9 +130,9 @@
    */
   let preloader = select('#preloader');
   if (preloader) {
-    window.addEventListener('load', () => {
+    setTimeout(function (){
       preloader.remove()
-    });
+    },3000);
   }
 
   /**
