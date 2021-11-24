@@ -128,12 +128,12 @@
   /**
    * Preloader
    */
-  let preloader = select('#preloader');
-  if (preloader) {
-    setTimeout(function (){
-      preloader.remove()
-    },5000);
-  }
+//   let preloader = select('#preloader');
+//   if (preloader) {
+//     setTimeout(function (){
+//       preloader.remove()
+//     },5000);
+//   }
 
   /**
    * Hero type effect
